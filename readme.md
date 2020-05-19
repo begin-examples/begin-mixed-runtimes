@@ -2,37 +2,17 @@
 
 [![Begin build status](https://buildstatus.begin.app/invent-jf9/status.svg)](https://begin.com)
 
-A super simple Begin **c**reate **r**ead **u**pdate **d**elete app that exemplifies a basic todo app that uses one static html page and three API endpoints.
+An example todo app with Deno and Node.js runtimes in different functions. Based on [Deno SSR](https://github.com/begin-examples/learn-deno-ssr) and [Begin Node CRUD](https://github.com/begin-examples/node-crud). 
 
 ## Deploy your own
 
-[![Deploy to Begin](https://static.begin.com/deploy-to-begin.svg)](https://begin.com/apps/create?template=https://github.com/begin-examples/node-crud)
+[![Deploy to Begin](https://static.begin.com/deploy-to-begin.svg)](https://begin.com/apps/create?template=https://github.com/begin-examples/begin-mixed-runtimes)
 
 Deploy your own clone of this app to Begin!
-
-get-index function at / 
- - handler fetches data { "todos": [] } and passes todos as props into render()
-render.tsx 
- - receives todos
- - renders App with stringified html, the body is App
- App.tsx
- - returns todos
-
-browser.tsx 
- App + render are sent to the client wrapped by an event listener. Window is the global object because Deno is made to be browser capable, but TS doesn't know about it. 
-
-
-
-SSR React app for frontend using fetch() to other Lambdas. 
-get-index can hydrate the DOM with data with javascript disabled.
-client side post requests can update data 
-
 
 ## Getting started
 
 - Start the local dev server: `npm start`
-- Lint your code: `npm run lint`
-- Run your tests: `npm t`
 
 ## Reference
 
