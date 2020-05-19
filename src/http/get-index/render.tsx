@@ -6,6 +6,7 @@ import { App } from "./app.tsx";
 export async function render() {
   const env = Deno.env.toObject();
   let stage;
+  // change these URLs to match your app
   if (env.NODE_ENV === "staging") {
     stage = "https://{your-staging-url}.begin.app";
   }

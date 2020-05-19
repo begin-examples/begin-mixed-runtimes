@@ -13,6 +13,7 @@ Deploy your own clone of this app to Begin!
 ## Getting started
 
 - Start the local dev server: `npm start`
+- Be sure to update the stage URLS with your Begin app URLS in `src/http/get-index/render.tsx`. You can find your Begin app URLs in the Begin console.
 
 ## Reference
 
