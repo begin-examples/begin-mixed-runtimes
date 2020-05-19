@@ -1,4 +1,4 @@
-<img src="https://static.begin.app/node-crud/readme-banner.png" width="641">
+
 
 [![Begin build status](https://buildstatus.begin.app/invent-jf9/status.svg)](https://begin.com)
 
