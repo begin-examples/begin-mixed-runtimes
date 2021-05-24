@@ -1,5 +1,5 @@
 @app
-begin-app
+mixed-run
 
 @static
 folder dist
