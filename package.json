@@ -8,9 +8,12 @@
     "start": "run-s deno:build start:arc"
   },
   "license": "Apache-2.0",
-  "devDependencies": {
+  "dependencies": {
     "@architect/sandbox": "^4.0.1",
     "mkdirp": "^1.0.4",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "@architect/functions": "^3.0.0",
+    "@begin/data": "^2.0.0",
+    "nanoid": "^2.1.11"
   }
 }
