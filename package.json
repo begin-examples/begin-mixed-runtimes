@@ -1,6 +1,6 @@
 {
   "name": "begin-mixed-runtimes",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "An example Begin app combining Deno and Node.js runtimes",
   "scripts": {
     "deno:build": "mkdirp dist && deno bundle src/browser.tsx dist/browser.js",

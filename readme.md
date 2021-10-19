@@ -1,7 +1,4 @@
 
-
-[![Begin build status](https://buildstatus.begin.app/invent-jf9/status.svg)](https://begin.com)
-
 An example todo app with Deno and Node.js runtimes in different functions. Based on [Deno SSR](https://github.com/begin-examples/learn-deno-ssr) and [Begin Node CRUD](https://github.com/begin-examples/node-crud). 
 
 ## Deploy your own
